@@ -78,13 +78,13 @@ main {
 .portfolio-card a {
     text-align: center;
     font-size: 12px;
-    margin: 24px;
+    margin: 3wv;
 }
 
 
 .portfolio-image {
-    height: 400px;
-    width: 400px;
+    height: 87vw;
+    width: 87vw;
 }
 
 @media screen and (min-width: 1440px) {
