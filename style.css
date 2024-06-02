@@ -87,7 +87,11 @@ main {
     width: 87vw;
 }
 
-@media screen and (min-width: 1440px) {
+p {
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
 
     header {
         max-width: 1000px;
@@ -119,8 +123,8 @@ main {
     }
     
     .portfolio {
-        gap: 24px;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     
     .portfolio-card {
