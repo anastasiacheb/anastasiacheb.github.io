@@ -174,8 +174,8 @@ p {
     }
     
     .portfolio {
-        gap: 1.6vw;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     
     .portfolio-card {
