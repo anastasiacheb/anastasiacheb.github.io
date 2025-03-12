@@ -62,7 +62,7 @@ function Card({ image, title, text, tags, code, site }) {
       <div className="flex flex-col gap-2">
         <img
           className="rounded-2xl"
-          src={`src/assets/images/${image}`}
+          src={`/assets/images/${image}`}
           alt="image"
         />
         <h2 className="text-base sm:text-lg md:text-xl font-medium px-4 pt-2">
