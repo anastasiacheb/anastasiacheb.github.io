@@ -13,7 +13,7 @@ export default function Stack() {
         <div className="flex gap-6 justify-center flex-wrap">
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-html-48.svg"
+              src="/assets/icons/icons8-html-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -21,7 +21,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-css3-48.svg"
+              src="/assets/icons/icons8-css3-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -29,7 +29,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-sass-48.svg"
+              src="/assets/icons/icons8-sass-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -37,7 +37,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-tailwindcss-48.svg"
+              src="/assets/icons/icons8-tailwindcss-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -45,7 +45,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-javascript-48.svg"
+              src="/assets/icons/icons8-javascript-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -53,7 +53,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-react-native.svg"
+              src="/assets/icons/icons8-react-native.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -61,7 +61,7 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/src/assets/icons/icons8-vite-48.svg"
+              src="/assets/icons/icons8-vite-48.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
@@ -76,7 +76,7 @@ export default function Stack() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/quality.svg"
+              src="/assets/icons/quality.svg"
               alt="icon"
               style={{
                 filter:
@@ -93,7 +93,7 @@ export default function Stack() {
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/fast.svg"
+              src="/assets/icons/fast.svg"
               alt="icon"
               style={{
                 filter:
@@ -111,7 +111,7 @@ export default function Stack() {
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/browsers.svg"
+              src="/assets/icons/browsers.svg"
               alt="icon"
               style={{
                 filter:
@@ -128,7 +128,7 @@ export default function Stack() {
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/adaptive.svg"
+              src="/assets/icons/adaptive.svg"
               alt="icon"
               style={{
                 filter:
@@ -146,7 +146,7 @@ export default function Stack() {
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/actual.svg"
+              src="/assets/icons/actual.svg"
               alt="icon"
               style={{
                 filter:
@@ -164,7 +164,7 @@ export default function Stack() {
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
-              src="/src/assets/icons/SEO.svg"
+              src="/assets/icons/SEO.svg"
               alt="icon"
               style={{
                 filter:

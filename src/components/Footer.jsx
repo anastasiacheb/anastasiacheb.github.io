@@ -23,7 +23,7 @@ export default function Footer() {
         </Button>
       </div>
       <div className="hidden md:block">
-        <img src="/src/assets/images/frame.png" alt="icon" className="w-3xs" />
+        <img src="/assets/images/frame.png" alt="icon" className="w-3xs" />
       </div>
     </footer>
   );

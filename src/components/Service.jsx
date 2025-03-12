@@ -10,7 +10,7 @@ export default function Service() {
         <div className="pb-4 border-b border-primary sm:pb-6 lg:pb-0 lg:border-b-0 lg:pr-6 lg:border-r">
           <h3 className="text-base sm:text-lg md:text-xl font-medium flex gap-2 items-center pb-2 sm:pb-4">
             <img
-              src="/src/assets/icons/front.svg"
+              src="/assets/icons/front.svg"
               alt="icon"
               style={{
                 filter:
@@ -29,7 +29,7 @@ export default function Service() {
         <div className="py-4 border-b border-primary sm:py-6 lg:py-0 lg:px-6 lg:border-b-0 lg:border-r">
           <h3 className="text-base sm:text-lg md:text-xl font-medium flex gap-2 items-center pb-2 sm:pb-4">
             <img
-              src="/src/assets/icons/api.svg"
+              src="/assets/icons/api.svg"
               alt="icon"
               style={{
                 filter:
@@ -47,7 +47,7 @@ export default function Service() {
         <div className="pt-4 sm:pt-6 lg:pt-0 lg:pl-6">
           <h3 className="text-base sm:text-lg md:text-xl font-medium flex gap-2 items-center pb-2 sm:pb-4">
             <img
-              src="/src/assets/icons/publish.svg"
+              src="/assets/icons/publish.svg"
               alt="icon"
               style={{
                 filter:
