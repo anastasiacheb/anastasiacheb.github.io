@@ -82,7 +82,7 @@ function Card({ image, title, text, tags, code, site }) {
           href={code}
           target="_blank"
           className="cursor-pointer"
-          ariaLabel="Ссылка на GitHub">
+          aria-label="Ссылка на GitHub">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -101,7 +101,7 @@ function Card({ image, title, text, tags, code, site }) {
           href={site}
           target="_blank"
           className="cursor-pointer"
-          ariaLabel="Ссылка на сайт">
+          aria-label="Ссылка на сайт">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
