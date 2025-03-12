@@ -78,7 +78,11 @@ function Card({ image, title, text, tags, code, site }) {
         </div>
       </div>
       <div className="flex gap-4 px-4 items-center justify-end">
-        <a href={code} target="_blank" className="cursor-pointer">
+        <a
+          href={code}
+          target="_blank"
+          className="cursor-pointer"
+          ariaLabel="Ссылка на GitHub">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -93,7 +97,11 @@ function Card({ image, title, text, tags, code, site }) {
             />
           </svg>
         </a>
-        <a href={site} target="_blank" className="cursor-pointer">
+        <a
+          href={site}
+          target="_blank"
+          className="cursor-pointer"
+          ariaLabel="Ссылка на сайт">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

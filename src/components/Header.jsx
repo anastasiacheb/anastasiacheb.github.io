@@ -47,7 +47,7 @@ export default function Header() {
         </Button>
         {/* </a> */}
       </div>
-      <div className="-mt-10">
+      <div className="-mt-10 -ml-4 sm:-ml-0">
         <LottieComponent />
       </div>
     </header>

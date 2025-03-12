@@ -102,7 +102,7 @@ export default function Nav() {
         // style={{
         //   transform: isMenuOpen ? 'translateY(61px)' : 'translateY(-100dvh)',
         // }}
-        className={`transition-all ease-linear duration-300 gap-8 justify-between flex sm:hidden absolute flex-col bg-slate-50  w-full h-[calc(100dvh-61px)] p-6 ${isMenuOpen ? 'top-[61px]' : '-top-[100dvh]'}`}>
+        className={`transition-all ease-linear duration-300 gap-8 flex sm:hidden absolute flex-col bg-slate-50  w-full h-[calc(100dvh-61px)] p-6 ${isMenuOpen ? 'top-[61px]' : '-top-[100dvh]'}`}>
         <a
           onClick={() => setIsMenuOpen(false)}
           href="#Услуги"

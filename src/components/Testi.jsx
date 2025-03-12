@@ -32,7 +32,11 @@ function Card({ name, text, link }) {
         </h2>
         <p className="pb-2 text-sm sm:text-base md:text-lg">{text}</p>
       </div>
-      <a href={`${link}`} target="_blank" className="flex justify-end">
+      <a
+        href={`${link}`}
+        target="_blank"
+        className="flex justify-end"
+        ariaLabel="Ссылка на отзыв">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -101,6 +105,7 @@ export default function Testi() {
       </Swiper>
       <div className="flex gap-2 justify-end sm:gap-4">
         <button
+          ariaLabel="Предидущий отзыв"
           ref={prevButtonRef}
           className="cursor-pointer p-2 sm:p-4 border border-sky-800 rounded-full hover:bg-slate-100">
           <svg
@@ -118,6 +123,7 @@ export default function Testi() {
           </svg>
         </button>
         <button
+          ariaLabel="Следующий отзыв"
           ref={nextButtonRef}
           className="cursor-pointer p-2 sm:p-4 border border-sky-800 rounded-full hover:bg-slate-100">
           <svg
