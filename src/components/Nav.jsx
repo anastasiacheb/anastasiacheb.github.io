@@ -22,21 +22,52 @@ export default function Nav() {
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+      document.documentElement.style.height = '100%';
+      document.body.style.height = '100%';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     } else {
       document.body.style.overflow = 'auto';
+      document.documentElement.style.overflow = 'auto';
+      document.documentElement.style.height = '';
+      document.body.style.height = '';
+      document.body.style.position = '';
+      document.body.style.width = '';
     }
 
     return () => {
       document.body.style.overflow = 'auto';
+      document.documentElement.style.overflow = 'auto';
+      document.documentElement.style.height = '';
+      document.body.style.height = '';
+      document.body.style.position = '';
+      document.body.style.width = '';
+    };
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const preventScroll = (e) => e.preventDefault();
+
+    if (isMenuOpen) {
+      document.addEventListener('touchmove', preventScroll, { passive: false });
+    } else {
+      document.removeEventListener('touchmove', preventScroll);
+    }
+
+    return () => {
+      document.removeEventListener('touchmove', preventScroll);
     };
   }, [isMenuOpen]);
 
   return (
     <nav className="border-b border-slate-300 fixed w-full bg-slate-50 top-0 z-50">
       <div className="max-w-6xl m-auto px-4 sm:px-6 flex items-center justify-between py-4 relative z-50 bg-slate-50">
-        <p className="text-lg sm:text-xl md:text-2xl font-bold text-sky-900">
+        <a
+          href="#header"
+          className="text-lg sm:text-xl md:text-2xl font-bold text-sky-900">
           &lt;AC /&gt;
-        </p>
+        </a>
         <div className="gap-8 hidden sm:flex">
           <a
             href="#Услуги"
@@ -65,6 +96,7 @@ export default function Nav() {
           </a>
         </div>
         <button
+          aria-label="Открыть или закрыть мобильное меню"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="cursor-pointer sm:hidden">
           {isMenuOpen ? (

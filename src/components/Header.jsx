@@ -23,7 +23,9 @@ function LottieComponent() {
 
 export default function Header() {
   return (
-    <header className="max-w-6xl m-auto px-4 sm:px-6 flex-col-reverse flex sm:grid sm:grid-cols-2 sm:py-20 pb-10 mt-[60px] sm:mt-[70px]">
+    <header
+      id="header"
+      className="max-w-6xl m-auto px-4 sm:px-6 flex-col-reverse flex sm:grid sm:grid-cols-2 sm:py-20 pb-10 mt-[60px] sm:mt-[70px] scroll-m-[60px] sm:scroll-m-[70px]">
       <div>
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-sky-900 pb-3 sm:pb-6">
           Привет, я Анастасия — фронтенд-разработчик

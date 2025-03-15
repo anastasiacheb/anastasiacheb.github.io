@@ -8,6 +8,8 @@ const projects = [
     text: 'Одностраничный лендинг с адаптивным дизайном, слайдером и аккордеоном. Темная тема меняется по системным настройкам.',
     tags: ['HTML', 'Tailwind', 'JavaScript', 'Vite', 'Swiper'],
     categories: ['Одностраничные'],
+    code: 'https://github.com/anastasiacheb/neuros',
+    site: 'https://anastasiacheb.github.io/neuros/',
   },
   {
     image: 'hurix.png',
