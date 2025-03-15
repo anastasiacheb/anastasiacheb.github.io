@@ -49,7 +49,7 @@ export default function Header() {
         </Button>
         {/* </a> */}
       </div>
-      <div className="-mt-10 -ml-4 sm:-ml-0">
+      <div className="-mt-10 -ml-4 -mr-6 sm:-ml-0 sm:-mr-0">
         <LottieComponent />
       </div>
     </header>
