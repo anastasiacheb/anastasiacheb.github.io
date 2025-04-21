@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import {
   Nav,
   Header,
@@ -11,15 +11,22 @@ import {
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Header />
-      <Service />
-      <Stack />
-      <Works />
-      <Testi />
-      <Footer />
-    </>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <>
+            <Nav />
+            <Header />
+            <Service />
+            <Stack />
+            <Works />
+            <Testi />
+            <Footer />
+          </>
+        }
+      />
+    </Routes>
   );
 }
 

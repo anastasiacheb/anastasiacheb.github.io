@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,37 +64,43 @@ export default function Nav() {
   return (
     <nav className="border-b border-slate-300 fixed w-full bg-slate-50 top-0 z-50">
       <div className="max-w-6xl m-auto px-4 sm:px-6 flex items-center justify-between py-4 relative z-50 bg-slate-50">
-        <a
-          href="#header"
+        <Link
+          smooth
+          to="#header"
           className="text-lg sm:text-xl md:text-2xl font-bold text-sky-900">
           &lt;AC /&gt;
-        </a>
+        </Link>
         <div className="gap-8 hidden sm:flex">
-          <a
-            href="#Услуги"
+          <Link
+            smooth
+            to="#Услуги"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Услуги
-          </a>
-          <a
-            href="#Навыки"
+          </Link>
+          <Link
+            smooth
+            to="#Навыки"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Навыки
-          </a>
-          <a
-            href="#Работы"
+          </Link>
+          <Link
+            smooth
+            to="#Работы"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Работы
-          </a>
-          <a
-            href="#Отзывы"
+          </Link>
+          <Link
+            smooth
+            to="#Отзывы"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Отзывы
-          </a>
-          <a
-            href="#Контакты"
+          </Link>
+          <Link
+            smooth
+            to="#Контакты"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Контакты
-          </a>
+          </Link>
         </div>
         <button
           aria-label="Открыть или закрыть мобильное меню"
