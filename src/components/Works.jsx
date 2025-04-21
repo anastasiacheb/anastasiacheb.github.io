@@ -3,6 +3,15 @@ import Button from './Button';
 
 const projects = [
   {
+    image: 'sphere.png',
+    title: 'Sphere Career',
+    text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
+    tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
+    categories: ['Одностраничные'],
+    code: 'https://github.com/anastasiacheb/sphere',
+    site: 'https://anastasiacheb.github.io/sphere/',
+  },
+  {
     image: 'neuros.png',
     title: 'Neuros',
     text: 'Одностраничный лендинг с адаптивным дизайном, слайдером и аккордеоном. Темная тема меняется по системным настройкам.',
