@@ -3,6 +3,22 @@ import Button from './Button';
 
 const projects = [
   {
+    image: 'quitchen.png',
+    title: 'Quitchen',
+    text: 'Многостраничный адаптивный SPA сайт c анимированными переходами между страницами.',
+    tags: [
+      'React',
+      'Tailwind',
+      'Swiper',
+      'React Router',
+      'Vite',
+      'Framer Motion',
+    ],
+    categories: ['Многостраничные'],
+    code: 'https://github.com/anastasiacheb/quitchen',
+    site: 'https://quitchen.vercel.app',
+  },
+  {
     image: 'sphere.png',
     title: 'Sphere Career',
     text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
@@ -56,15 +72,15 @@ const projects = [
     code: 'https://github.com/anastasiacheb/positivus',
     site: 'https://anastasiacheb.github.io/positivus/',
   },
-  {
-    image: 'zebb.png',
-    title: 'Zebb',
-    text: 'Одностраничный лендинг с адаптивным дизайном и бесконечным слайдером.',
-    tags: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
-    categories: ['Одностраничные'],
-    code: 'https://github.com/anastasiacheb/zebb',
-    site: 'https://anastasiacheb.github.io/zebb/',
-  },
+  // {
+  //   image: 'zebb.png',
+  //   title: 'Zebb',
+  //   text: 'Одностраничный лендинг с адаптивным дизайном и бесконечным слайдером.',
+  //   tags: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
+  //   categories: ['Одностраничные'],
+  //   code: 'https://github.com/anastasiacheb/zebb',
+  //   site: 'https://anastasiacheb.github.io/zebb/',
+  // },
 ];
 
 function Card({ image, title, text, tags, code, site }) {
