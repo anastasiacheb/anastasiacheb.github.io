@@ -6,7 +6,7 @@ const projects = [
     image: 'arkitect.png',
     title: 'Arkitect',
     text: 'Многостраничный адаптивный сайт с параллакс-эффектами, скролл-анимациями, страницами проектов и кастомной страницей 404.',
-    tags: ['React', 'Tailwind', 'Next.jx', 'Framer Motion'],
+    tags: ['React', 'Tailwind', 'Next.js', 'Framer Motion'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/arkitect',
     site: 'https://arkitect.vercel.app',
