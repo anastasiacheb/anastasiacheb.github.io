@@ -3,6 +3,15 @@ import Button from './Button';
 
 const projects = [
   {
+    image: 'norrcollective.png',
+    title: 'NorrCollective',
+    text: 'Многостраничный адаптивный интернет магазин, со страницами категорий и товаров, модальным окном регистрации, корзиной с сохранением в localStorage и многоступенчатым чекаутом',
+    tags: ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Framer Motion'],
+    categories: ['Многостраничные'],
+    code: 'https://github.com/anastasiacheb/NorrCollective',
+    site: 'https://norrcollective.vercel.app',
+  },
+  {
     image: 'arkitect.png',
     title: 'Arkitect',
     text: 'Многостраничный адаптивный сайт с параллакс-эффектами, скролл-анимациями, страницами проектов и кастомной страницей 404.',
@@ -54,33 +63,33 @@ const projects = [
     code: 'https://github.com/anastasiacheb/hurix',
     site: 'https://anastasiacheb.github.io/hurix/',
   },
-  {
-    image: 'petal.png',
-    title: 'Petal perfection',
-    text: 'Адаптивный интернет-магазин с анимацией при скролле, страницами товаров и категорий. Возможность добавлять разное количество товаров в корзину, с сохранением данных в local storage.',
-    tags: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
-    categories: ['Многостраничные', 'Интернет магазины'],
-    code: 'https://github.com/anastasiacheb/petal_perfection',
-    site: 'https://anastasiacheb.github.io/petal_perfection/',
-  },
-  {
-    image: 'cowork.png',
-    title: 'Cowork',
-    text: 'Многостраничный адаптивный сайт с эффектом появления при скролле, аккордеоном и фильтрацией статей по тегам. Включает кнопку для возврата наверх.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    categories: ['Многостраничные'],
-    code: 'https://github.com/anastasiacheb/cowork',
-    site: 'https://anastasiacheb.github.io/cowork/',
-  },
-  {
-    image: 'positivus.png',
-    title: 'Positivus',
-    text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    categories: ['Одностраничные'],
-    code: 'https://github.com/anastasiacheb/positivus',
-    site: 'https://anastasiacheb.github.io/positivus/',
-  },
+  // {
+  //   image: 'petal.png',
+  //   title: 'Petal perfection',
+  //   text: 'Адаптивный интернет-магазин с анимацией при скролле, страницами товаров и категорий. Возможность добавлять разное количество товаров в корзину, с сохранением данных в local storage.',
+  //   tags: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
+  //   categories: ['Многостраничные', 'Интернет магазины'],
+  //   code: 'https://github.com/anastasiacheb/petal_perfection',
+  //   site: 'https://anastasiacheb.github.io/petal_perfection/',
+  // },
+  // {
+  //   image: 'cowork.png',
+  //   title: 'Cowork',
+  //   text: 'Многостраничный адаптивный сайт с эффектом появления при скролле, аккордеоном и фильтрацией статей по тегам. Включает кнопку для возврата наверх.',
+  //   tags: ['HTML', 'CSS', 'JavaScript'],
+  //   categories: ['Многостраничные'],
+  //   code: 'https://github.com/anastasiacheb/cowork',
+  //   site: 'https://anastasiacheb.github.io/cowork/',
+  // },
+  // {
+  //   image: 'positivus.png',
+  //   title: 'Positivus',
+  //   text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
+  //   tags: ['HTML', 'CSS', 'JavaScript'],
+  //   categories: ['Одностраничные'],
+  //   code: 'https://github.com/anastasiacheb/positivus',
+  //   site: 'https://anastasiacheb.github.io/positivus/',
+  // },
   // {
   //   image: 'zebb.png',
   //   title: 'Zebb',
@@ -179,7 +188,7 @@ export default function Works() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center pb-6 sm:pb-10 text-sky-900">
         Мои работы
       </h2>
-      <div className="flex gap-4 justify-center items-center flex-wrap pb-4 sm:pb-8">
+      {/* <div className="flex gap-4 justify-center items-center flex-wrap pb-4 sm:pb-8">
         {tags.map((tag) => (
           <Button
             key={tag}
@@ -189,7 +198,7 @@ export default function Works() {
             {tag}
           </Button>
         ))}
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {filteredProjects.map((project) => (
           <Card

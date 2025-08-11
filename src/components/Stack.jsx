@@ -67,6 +67,22 @@ export default function Stack() {
             />
             <p className="text-sm sm:text-base md:text-lg">Vite</p>
           </div>
+          <div className="flex flex-col gap-1 items-center">
+            <img
+              src="/assets/icons/icons8-typescript.svg"
+              alt="icon"
+              className="w-14 h-14 sm:w-20 sm:h-20"
+            />
+            <p className="text-sm sm:text-base md:text-lg">TypeScript</p>
+          </div>
+          <div className="flex flex-col gap-1 items-center">
+            <img
+              src="/assets/icons/icons8-next.svg"
+              alt="icon"
+              className="w-14 h-14 sm:w-20 sm:h-20"
+            />
+            <p className="text-sm sm:text-base md:text-lg">Next.js</p>
+          </div>
         </div>
       </div>
       <div>
