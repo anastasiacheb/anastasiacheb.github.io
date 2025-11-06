@@ -27,7 +27,6 @@ const projects = [
     tags: [
       'React',
       'Tailwind',
-      'Swiper',
       'React Router',
       'Vite',
       'Framer Motion',
