@@ -23,7 +23,7 @@ const projects = [
   {
     image: 'quitchen.png',
     title: 'Quitchen',
-    text: 'Многостраничный адаптивный SPA сайт c анимированными переходами между страницами.',
+    text: 'Многостраничный адаптивный PWA сайт c анимированными переходами между страницами.',
     tags: [
       'React',
       'Tailwind',
@@ -31,6 +31,7 @@ const projects = [
       'React Router',
       'Vite',
       'Framer Motion',
+      'Vite PWA',
     ],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/quitchen',
