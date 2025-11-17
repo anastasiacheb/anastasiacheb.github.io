@@ -10,7 +10,7 @@ export default function Stack() {
         {/* <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center text-sky-800">
           Стек
         </h3> */}
-        <div className="flex gap-6 justify-center flex-wrap">
+        <div className="flex gap-6 justify-center flex-wrap max-w-175 mx-auto">
           <div className="flex flex-col gap-1 items-center">
             <img
               src="/assets/icons/icons8-html-48.svg"
@@ -84,7 +84,7 @@ export default function Stack() {
             <p className="text-sm sm:text-base md:text-lg">Next.js</p>
           </div>
           <div className="flex flex-col gap-1 items-center">
-            <div className="bg-[#fff312] rounded-4xl flex items-center justify-center w-14 h-14 sm:w-20 sm:h-20 px-1">
+            <div className="bg-[#fff312] rounded-2xl flex items-center justify-center w-14 h-14 sm:w-20 sm:h-20 px-1">
               <svg
                 className="w-full h-auto bg-[#fff312] rounded-2xl"
                 xmlns="http://www.w3.org/2000/svg"
