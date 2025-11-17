@@ -37,6 +37,15 @@ const projects = [
     site: 'https://quitchen.vercel.app',
   },
   {
+    image: 'neuros.png',
+    title: 'Neuros',
+    text: 'Адаптивный двухстраничный лендинг с редактированием контента через headless CMS. Темная тема меняется по системным настройкам.',
+    tags: ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Sanity'],
+    categories: ['Одностраничные'],
+    code: 'https://github.com/anastasiacheb/neuros_',
+    site: 'https://neuros-three.vercel.app',
+  },
+  {
     image: 'sphere.png',
     title: 'Sphere Career',
     text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
@@ -45,15 +54,7 @@ const projects = [
     code: 'https://github.com/anastasiacheb/sphere',
     site: 'https://anastasiacheb.github.io/sphere/',
   },
-  {
-    image: 'neuros.png',
-    title: 'Neuros',
-    text: 'Одностраничный лендинг с адаптивным дизайном, слайдером и аккордеоном. Темная тема меняется по системным настройкам.',
-    tags: ['HTML', 'Tailwind', 'JavaScript', 'Vite', 'Swiper'],
-    categories: ['Одностраничные'],
-    code: 'https://github.com/anastasiacheb/neuros',
-    site: 'https://anastasiacheb.github.io/neuros/',
-  },
+
   {
     image: 'hurix.png',
     title: 'Hurix',
