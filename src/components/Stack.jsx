@@ -53,27 +53,19 @@ export default function Stack() {
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
-              src="/assets/icons/icons8-react-native.svg"
-              alt="icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
-            />
-            <p className="text-sm sm:text-base md:text-lg">React</p>
-          </div>
-          <div className="flex flex-col gap-1 items-center">
-            <img
-              src="/assets/icons/icons8-vite-48.svg"
-              alt="icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
-            />
-            <p className="text-sm sm:text-base md:text-lg">Vite</p>
-          </div>
-          <div className="flex flex-col gap-1 items-center">
-            <img
               src="/assets/icons/icons8-typescript.svg"
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
             <p className="text-sm sm:text-base md:text-lg">TypeScript</p>
+          </div>
+          <div className="flex flex-col gap-1 items-center">
+            <img
+              src="/assets/icons/icons8-react-native.svg"
+              alt="icon"
+              className="w-14 h-14 sm:w-20 sm:h-20"
+            />
+            <p className="text-sm sm:text-base md:text-lg">React</p>
           </div>
           <div className="flex flex-col gap-1 items-center">
             <img
@@ -84,9 +76,17 @@ export default function Stack() {
             <p className="text-sm sm:text-base md:text-lg">Next.js</p>
           </div>
           <div className="flex flex-col gap-1 items-center">
+            <img
+              src="/assets/icons/icons8-vite-48.svg"
+              alt="icon"
+              className="w-14 h-14 sm:w-20 sm:h-20"
+            />
+            <p className="text-sm sm:text-base md:text-lg">Vite</p>
+          </div>
+          <div className="flex flex-col gap-1 items-center">
             <div className="bg-[#fff312] rounded-2xl flex items-center justify-center w-14 h-14 sm:w-20 sm:h-20 px-1">
               <svg
-                className="w-full h-auto bg-[#fff312] rounded-2xl"
+                className="w-full h-auto"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 9">
                 <path
