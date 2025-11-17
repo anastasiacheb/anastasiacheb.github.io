@@ -11,7 +11,7 @@ export default function Footer() {
         </h2>
         <p className="text-sm sm:text-base md:text-lg pb-4 sm:pb-8 max-w-xl">
           Готовы обсудить проект или есть вопросы? <br /> Напишите мне в
-          Telegram, и я с радостью помогу вам реализовать идеи!
+          Telegram
         </p>
         <p className="text-sm sm:text-base md:text-lg font-semibold pb-2 sm:pb-4">
           @nascheb

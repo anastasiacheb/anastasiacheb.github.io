@@ -119,7 +119,7 @@ export default function Stack() {
               Качество кода
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Строгое внимание к структуре, читаемости и поддерживаемости кода.
+              Чистая структура, понятные и поддерживаемый код
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
@@ -136,8 +136,8 @@ export default function Stack() {
               Производительность
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Оптимизация кода и ресурсов для быстрой загрузки сайта и
-              комфортного пользовательского опыта.
+              Оптимизация кода и ресурсов для быстрой загрузки сайта (pagespeed
+              от 90-95).
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
@@ -154,7 +154,7 @@ export default function Stack() {
               Кроссбраузерность
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Обеспечение корректной работы сайта во всех популярных браузерах.
+              Корректная работа во всех популярных браузерах
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
@@ -171,8 +171,7 @@ export default function Stack() {
               Адаптивность
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Создание интерфейсов, которые отлично выглядят и работают на всех
-              устройствах и экранах.
+              Удобство использования на любых устройствах
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
@@ -189,8 +188,7 @@ export default function Stack() {
               Актуальность технологий
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Постоянное обновление знаний о новых веб-технологиях и внедрение
-              их в проекты.
+              Использование современного и обновляемого стека.
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
@@ -207,8 +205,7 @@ export default function Stack() {
               SEO-оптимизация
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Разработка с учетом SEO-стандартов для улучшения видимости вашего
-              сайта в поисковых системах.
+              Разработка с соблюдением всех SEO-стандартов.
             </p>
           </div>
         </div>
