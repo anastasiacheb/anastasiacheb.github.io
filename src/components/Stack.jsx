@@ -136,7 +136,7 @@ export default function Stack() {
               Производительность
             </h3>
             <p className="text-sm sm:text-base md:text-lg">
-              Быстрой загрузка сайта (pagespeed от 90-95).
+              Быстрая загрузка сайта (pagespeed от 90-95).
             </p>
           </div>
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
