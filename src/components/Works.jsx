@@ -39,6 +39,15 @@ const projects = [
     site: 'https://neuros-three.vercel.app',
   },
   {
+    image: 'sphere.png',
+    title: 'Sphere Career',
+    text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
+    tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
+    categories: ['Одностраничные'],
+    code: 'https://github.com/anastasiacheb/sphere',
+    site: 'https://anastasiacheb.github.io/sphere/',
+  },
+  {
     image: 'sigma.png',
     title: 'Sigma',
     text: 'Одностраничный адаптивный лендинг',
@@ -55,15 +64,6 @@ const projects = [
     categories: ['Одностраничные'],
     code: 'https://github.com/anastasiacheb/mwm',
     site: 'https://mwm-beta.vercel.app/',
-  },
-  {
-    image: 'sphere.png',
-    title: 'Sphere Career',
-    text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
-    tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
-    categories: ['Одностраничные'],
-    code: 'https://github.com/anastasiacheb/sphere',
-    site: 'https://anastasiacheb.github.io/sphere/',
   },
 
   {
