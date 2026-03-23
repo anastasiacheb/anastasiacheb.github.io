@@ -54,7 +54,7 @@ const projects = [
     tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
     categories: ['Одностраничные'],
     code: 'https://github.com/anastasiacheb/mwm',
-    site: 'https://mwm-jet.vercel.app',
+    site: 'https://mwm-beta.vercel.app/',
   },
   {
     image: 'sphere.png',
