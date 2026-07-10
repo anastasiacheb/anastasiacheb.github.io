@@ -5,7 +5,7 @@ const projects = [
   {
     image: 'norrcollective.png',
     title: 'NorrCollective',
-    text: 'Многостраничный адаптивный интернет-магазин антикварной мебели с динамической генерацией страниц категорий и товаров. \n Реализованы корзина с сохранением данных и расчетом стоимости, а также многоступенчатый checkout-процесс. \n Создана компонентная архитектура с переиспользуемыми элементами и выполнена оптимизация производительности сайта. \n UI-компоненты (селекты, date picker) адаптированы под стиль проекта с помощью shadcn/ui. Добавлены скролл-эффекты и интерактивные состояния для создания плавного и цельного пользовательского опыта.',
+    text: 'Многостраничный адаптивный интернет-магазин антикварной мебели с динамической генерацией страниц категорий и товаров. \n\n Реализованы корзина с сохранением данных и расчетом стоимости, а также многоступенчатый checkout-процесс. UI-компоненты (селекты, date picker) адаптированы под стиль проекта с помощью shadcn/ui. Добавлены скролл-эффекты и интерактивные состояния для создания плавного и цельного пользовательского опыта.',
     tags: ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Motion'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/NorrCollective',
@@ -14,7 +14,7 @@ const projects = [
   {
     image: 'arkitect.png',
     title: 'Arkitect',
-    text: 'Многостраничный адаптивный сайт архитектурного бюро с динамическими страницами проектов и кастомной страницей 404. Реализованы параллакс-эффекты, скролл-анимации и интерактивные элементы для создания плавного пользовательского опыта. Использована компонентная архитектура с переиспользуемыми элементами и выполнена оптимизация производительности.',
+    text: 'Многостраничный адаптивный сайт архитектурного бюро с динамическими страницами проектов и кастомной страницей 404. \n\nРеализованы параллакс-эффекты, скролл-анимации и интерактивные элементы для создания плавного пользовательского опыта.',
     tags: ['React', 'Tailwind', 'Next.js', 'Motion'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/arkitect',
@@ -24,7 +24,7 @@ const projects = [
   {
     image: 'quitchen.png',
     title: 'Quitchen',
-    text: 'Многостраничный адаптивный сайт ресторана с плавными анимациями переходов. Добавлена форма бронирования и карта с указанием расположения ресторана. UI-компоненты (date picker, селекты) адаптированы под стиль проекта с помощью shadcn/ui. Настроена PWA-функциональность с возможностью установки приложения на устройство. Создана компонентная архитектура с переиспользуемыми элементами и выполнена оптимизация производительности сайта.',
+    text: 'Многостраничный адаптивный сайт ресторана с плавными анимациями переходов. \n\nДобавлена форма бронирования и карта с указанием расположения ресторана. UI-компоненты (date picker, селекты) адаптированы под стиль проекта с помощью shadcn/ui. Настроена PWA-функциональность с возможностью установки приложения на устройство.',
     tags: ['React', 'Tailwind', 'React Router', 'Vite', 'Motion', 'Vite PWA'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/quitchen',
@@ -33,7 +33,7 @@ const projects = [
   {
     image: 'neuros.png',
     title: 'Neuros',
-    text: 'Адаптивный лендинг для сервиса AI-аналитики с дополнительной страницей приложений. Реализовано управление контентом с помощью headless CMS. Добавлена поддержка темной темы в зависимости от системных настроек пользователя. Создана компонентная архитектура с переиспользуемыми элементами и выполнена оптимизация производительности сайта.',
+    text: 'Адаптивный лендинг для сервиса AI-аналитики с дополнительной страницей приложений. \n\nРеализовано управление контентом с помощью headless CMS. Добавлена поддержка темной темы в зависимости от системных настроек пользователя.',
     tags: ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Sanity'],
     categories: ['Одностраничные'],
     code: 'https://github.com/anastasiacheb/neuros_',
@@ -117,8 +117,8 @@ const projects = [
 
 function Card({ image, title, text, tags, code, site }) {
   return (
-    <div className="border border-slate-300 rounded-2xl flex flex-col gap-2 pb-4 justify-between">
-      <div className="flex flex-col gap-2">
+    <div className="border border-slate-300 rounded-2xl flex flex-col gap-2 pb-4 justify-between md:gap-4">
+      <div className="flex flex-col gap-2 ">
         <img
           className="rounded-2xl"
           src={`/assets/images/${image}`}
@@ -127,7 +127,9 @@ function Card({ image, title, text, tags, code, site }) {
         <h2 className="text-base sm:text-lg md:text-xl font-medium px-4 pt-2">
           {title}
         </h2>
-        <p className="text-sm sm:text-base md:text-lg px-4">{text}</p>
+        <p className="text-sm sm:text-base md:text-lg px-4 whitespace-pre-line">
+          {text}
+        </p>
         <div className="flex gap-1 flex-wrap px-4">
           {tags.map((tag) => (
             <p key={tag} className="text-sm bg-sky-200 w-fit px-2 rounded-full">
@@ -140,15 +142,16 @@ function Card({ image, title, text, tags, code, site }) {
         <a
           href={code}
           target="_blank"
-          className="cursor-pointer"
+          className="cursor-pointer flex gap-1 text-sky-800 hover:text-sky-600 text-sm font-medium justify-center items-center group transition-colors duration-300"
           aria-label="Ссылка на GitHub">
+          GitHub
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="size-6 text-sky-800 hover:text-sky-600">
+            className="size-6 text-sky-800 group-hover:text-sky-600 transition-colors duration-300">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -159,15 +162,16 @@ function Card({ image, title, text, tags, code, site }) {
         <a
           href={site}
           target="_blank"
-          className="cursor-pointer"
+          className="cursor-pointer flex gap-1 text-sky-800 hover:text-sky-600 text-sm font-medium justify-center items-center group transition-colors duration-300"
           aria-label="Ссылка на сайт">
+          Сайт
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="size-6 text-sky-800 hover:text-sky-600">
+            className="size-6 text-sky-800 group-hover:text-sky-600 transition-colors duration-300">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -200,7 +204,7 @@ export default function Works() {
       id="Работы"
       className="scroll-mt-[90px] max-w-6xl m-auto px-4 sm:px-6 sm:pb-20 pb-10">
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center pb-6 sm:pb-10 text-sky-900">
-        Мои работы
+        Избранные проекты
       </h2>
       {/* <div className="flex gap-4 justify-center items-center flex-wrap pb-4 sm:pb-8">
         {tags.map((tag) => (

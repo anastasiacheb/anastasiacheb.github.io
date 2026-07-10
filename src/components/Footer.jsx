@@ -7,11 +7,10 @@ export default function Footer() {
       className="max-w-6xl m-auto px-4 sm:px-6 flex justify-between items-end sm:pb-20 pb-10">
       <div>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-sky-900 pb-3 sm:pb-6">
-          Свяжитесь со мной
+          Расскажите о вашем проекте
         </h2>
         <p className="text-sm sm:text-base md:text-lg pb-4 sm:pb-8 max-w-xl">
-          Готовы обсудить проект или есть вопросы? <br /> Напишите мне в
-          Telegram
+          Напишите мне в Telegram, чтобы обсудить проект, сроки и стоимость.
         </p>
         <p className="text-sm sm:text-base md:text-lg font-semibold pb-2 sm:pb-4">
           @nascheb

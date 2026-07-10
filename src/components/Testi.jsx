@@ -7,19 +7,30 @@ import 'swiper/css/navigation';
 
 const clients = [
   {
-    name: 'заказчик',
-    text: 'Cпасибо Анастасии за проделанную работу! Она выполнила задачу качественно, аккуратно и в срок. Всегда на связи, все пожелания и доработки учтены и сделаны качественно. Цена за работу более чем адекватная. Рекомендую этого специалиста как ответственного и порядочного исполнителя. Обязательно обращусь снова, если понадобится помощь в подобных задачах. Спасибо большое!',
-    link: 'https://www.fl.ru/users/anachebotova/opinions/?sort=1&period=&author=0#op_head',
-  },
-  {
-    name: 'Максим Вихрев',
+    name: 'Максим В.',
     text: 'Всё прекрасно, работой очень доволен: адаптивность, производительность, чистота кода – всё на высоте. Спасибо за результат!',
     link: 'https://freelance.habr.com/freelancers/anastasia-chebotova/opinions',
   },
   {
-    name: 'заказчик',
-    text: 'С Анастасией было просто работать в течении всего проекта. С новыми задачами с которыми сталкивалась, решала без усложнений. На этапе оценки техническое задание изучила не посредственно, в ходе работы было видно, что предмет задачи хорошо понимает. Терпелива, спокойна, аккуратная в коде. Время работы чувствует хорошо, сроки не затягивает. В целом было приятно работать с ответственным и заинтересованным человеком.',
-    link: 'https://www.fl.ru/users/anachebotova/opinions/?sort=1&period=&author=0#op_head',
+    name: 'Сергей М.',
+    text: 'Анастасия очень порадовала своим подходом. Все очень четко. Сроки соблюдены идеально, верстка чистейшая (разработчик счастлив). Все правки и доработки внесены очень быстро. Рекомендую.',
+    link: 'https://www.fl.ru/users/anachebotova/opinions/',
+  },
+  {
+    name: 'Е.',
+    text: 'Очень довольны работой! Анастасия быстро и качественно сверстала наш сайт по макету из Figma за 2 дня. Всё сделано аккуратно, согласно требованиям, коммуникация отличная. Рекомендую к сотрудничеству!',
+    link: 'https://www.fl.ru/users/anachebotova/opinions/',
+  },
+  {
+    name: 'Олег К.',
+    text: 'Анастасия отличный специалист всегда на связи. Помогла выполнить верстку даже раньше срока. Качество высокое и хороший валидный код. Будем обращаться еще.',
+    link: 'https://www.fl.ru/users/anachebotova/opinions/',
+  },
+
+  {
+    name: 'Андрей М.',
+    text: 'Спасибо Анастасии за проделанную работу! Она выполнила задачу качественно, аккуратно и в срок. Всегда на связи, все пожелания и доработки учтены и сделаны качественно. Цена за работу более чем адекватная. Рекомендую этого специалиста как ответственного и порядочного исполнителя. Обязательно обращусь снова, если понадобится помощь в подобных задачах. Спасибо большое!',
+    link: 'https://www.fl.ru/users/anachebotova/opinions/',
   },
 ];
 
@@ -30,20 +41,21 @@ function Card({ name, text, link }) {
         <h2 className="pb-2 text-base sm:text-lg md:text-xl font-medium ">
           {name}
         </h2>
-        <p className="pb-2 text-sm sm:text-base md:text-lg">{text}</p>
+        <p className="pb-2 text-sm sm:text-base md:text-lg md:pb-4">{text}</p>
       </div>
       <a
         href={`${link}`}
         target="_blank"
-        className="flex justify-end"
+        className="flex justify-end cursor-pointer gap-1 text-sky-800 hover:text-sky-600 text-sm font-medium items-center group transition-colors duration-300"
         aria-label="Ссылка на отзыв">
+        Смотреть отзыв
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="size-6 text-sky-800 hover:text-sky-600">
+          className="size-6 text-sky-800 group-hover:text-sky-600 transition-colors duration-300">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"

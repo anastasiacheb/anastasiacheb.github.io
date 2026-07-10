@@ -4,7 +4,7 @@ export default function Stack() {
       id="Навыки"
       className="scroll-mt-[90px] max-w-6xl m-auto px-4 sm:pb-20 pb-10">
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center pb-6 sm:pb-10 text-sky-900">
-        Навыки и подход к работе
+        Технологии
       </h2>
       <div className="pb-4 sm:pb-8">
         {/* <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center text-sky-800">
@@ -112,12 +112,20 @@ export default function Stack() {
             </svg>
             <p className="text-sm sm:text-base md:text-lg">Sanity</p>
           </div>
+          <div className="flex flex-col gap-1 items-center">
+            <img
+              src="/assets/icons/icons8-wordpress.svg"
+              alt="icon"
+              className="w-14 h-14 sm:w-20 sm:h-20"
+            />
+            <p className="text-sm sm:text-base md:text-lg">Wordpress</p>
+          </div>
         </div>
       </div>
-      <div>
-        {/* <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center text-sky-900">
+      {/* <div>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center text-sky-900">
           Принципы работы
-        </h3> */}
+        </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="p-4 border border-neutralBorder rounded-2xl sm:p-6 flex flex-col gap-2">
             <img
@@ -222,7 +230,7 @@ export default function Stack() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

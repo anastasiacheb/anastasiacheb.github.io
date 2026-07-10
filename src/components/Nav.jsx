@@ -77,12 +77,12 @@ export default function Nav() {
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Услуги
           </Link>
-          <Link
+          {/* <Link
             smooth
             to="#Навыки"
             className="text-sm sm:text-base md:text-lg hover:border-sky-900 border-slate-50 border-b-2 py-1">
             Навыки
-          </Link>
+          </Link> */}
           <Link
             smooth
             to="#Работы"
