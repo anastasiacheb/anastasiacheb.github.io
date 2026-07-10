@@ -5,7 +5,7 @@ const projects = [
   {
     image: 'norrcollective.png',
     title: 'NorrCollective',
-    text: 'Многостраничный адаптивный интернет магазин, со страницами категорий и товаров, модальным окном регистрации, корзиной с сохранением в localStorage и многоступенчатым чекаутом',
+    text: 'Многостраничный адаптивный интернет-магазин с динамической генерацией страниц категорий и товаров. Реализована корзина с сохранением данных, расчетом стоимости и многоступенчатым checkout-процессом. Создана компонентная архитектура с переиспользуемыми элементами и оптимизирована производительность приложения. Адаптированы UI-компоненты (селекты, date picker) под стиль проекта с помощью shadcn/ui, а также добавлены скролл-эффекты и интерактивные состояния для создания плавного и визуально привлекательного интерфейса.',
     tags: ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Motion'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/NorrCollective',
@@ -20,6 +20,7 @@ const projects = [
     code: 'https://github.com/anastasiacheb/arkitect',
     site: 'https://arkitect.vercel.app',
   },
+  //сюда админка
   {
     image: 'quitchen.png',
     title: 'Quitchen',
@@ -38,6 +39,7 @@ const projects = [
     code: 'https://github.com/anastasiacheb/neuros_',
     site: 'https://neuros-three.vercel.app',
   },
+  //
   // {
   //   image: 'sphere.png',
   //   title: 'Sphere Career',
