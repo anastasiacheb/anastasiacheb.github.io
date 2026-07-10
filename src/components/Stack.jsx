@@ -4,7 +4,7 @@ export default function Stack() {
       id="Навыки"
       className="scroll-mt-[90px] max-w-6xl m-auto px-4 sm:pb-20 pb-10">
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center pb-6 sm:pb-10 text-sky-900">
-        Технологии
+        Технологии, с которыми я работаю
       </h2>
       <div className="pb-4 sm:pb-8">
         {/* <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-center text-sky-800">
@@ -118,7 +118,7 @@ export default function Stack() {
               alt="icon"
               className="w-14 h-14 sm:w-20 sm:h-20"
             />
-            <p className="text-sm sm:text-base md:text-lg">Wordpress</p>
+            <p className="text-sm sm:text-base md:text-lg">WordPress</p>
           </div>
         </div>
       </div>
