@@ -19,8 +19,8 @@ function App() {
             <Nav />
             <Header />
             <Service />
-            <Works />
             <Stack />
+            <Works />
             <Testi />
             <Footer />
           </>
