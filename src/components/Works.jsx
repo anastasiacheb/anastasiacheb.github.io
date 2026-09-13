@@ -15,7 +15,7 @@ const projects = [
   {
     image: 'intheclouds.png',
     title: 'InTheClouds',
-    text: 'Сайт со сложными параллакс и скролл анимациями. \n\n ',
+    text: 'Сайт со сложными параллакс и скролл анимациями.',
     tags: ['React', 'Tailwind', 'Next.js', 'Motion'],
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/intheclouds',
