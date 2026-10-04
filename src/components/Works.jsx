@@ -40,6 +40,15 @@ const projects = [
     site: 'https://norrcollective-admin.vercel.app',
   },
   {
+    image: 'sphere.png',
+    title: 'Sphere Career',
+    text: 'Верстка адаптивного лендинга.',
+    tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
+    categories: ['Одностраничные'],
+    code: 'https://github.com/anastasiacheb/sphere',
+    site: 'https://anastasiacheb.github.io/sphere/',
+  },
+  {
     image: 'arkitect.png',
     title: 'Arkitect',
     text: 'Многостраничный адаптивный сайт архитектурного бюро с динамическими страницами проектов и кастомной страницей 404. \n\nДобавлены параллакс и скролл-анимации и интерактивные элементы.',
@@ -67,16 +76,7 @@ const projects = [
     code: 'https://github.com/anastasiacheb/neuros_',
     site: 'https://neuros-three.vercel.app',
   },
-  //
-  // {
-  //   image: 'sphere.png',
-  //   title: 'Sphere Career',
-  //   text: 'Одностраничный адаптивный лендинг с аккордеоном и слайдером.',
-  //   tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
-  //   categories: ['Одностраничные'],
-  //   code: 'https://github.com/anastasiacheb/sphere',
-  //   site: 'https://anastasiacheb.github.io/sphere/',
-  // },
+
   // {
   //   image: 'sigma.png',
   //   title: 'Sigma',
