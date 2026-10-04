@@ -59,15 +59,6 @@ const projects = [
   },
   //сюда админка
   {
-    image: 'quitchen.png',
-    title: 'Quitchen',
-    text: 'Многостраничный адаптивный сайт ресторана с плавными анимациями переходов. \n\nДобавлена форма бронирования и карта с расположением ресторана. UI-компоненты (date picker, селекты) адаптированы под стиль проекта с помощью shadcn/ui. Настроена PWA-функциональность с возможностью установки приложения на устройство.',
-    tags: ['React', 'Tailwind', 'React Router', 'Vite', 'Motion', 'Vite PWA'],
-    categories: ['Многостраничные'],
-    code: 'https://github.com/anastasiacheb/quitchen',
-    site: 'https://quitchen.vercel.app',
-  },
-  {
     image: 'neuros.png',
     title: 'Neuros',
     text: 'Адаптивный лендинг для сервиса AI-аналитики с дополнительной страницей приложений. \n\nНастроено управление контентом с помощью headless CMS Sanity. Добавлена поддержка темной темы в зависимости от системных настроек пользователя.',
@@ -75,6 +66,15 @@ const projects = [
     categories: ['Одностраничные'],
     code: 'https://github.com/anastasiacheb/neuros_',
     site: 'https://neuros-three.vercel.app',
+  },
+  {
+    image: 'quitchen.png',
+    title: 'Quitchen',
+    text: 'Многостраничный адаптивный сайт ресторана с плавными анимациями переходов. \n\nДобавлена форма бронирования и карта с расположением ресторана. UI-компоненты (date picker, селекты) адаптированы под стиль проекта с помощью shadcn/ui. Настроена PWA-функциональность с возможностью установки приложения на устройство.',
+    tags: ['React', 'Tailwind', 'React Router', 'Vite', 'Motion', 'Vite PWA'],
+    categories: ['Многостраничные'],
+    code: 'https://github.com/anastasiacheb/quitchen',
+    site: 'https://quitchen.vercel.app',
   },
 
   // {
