@@ -13,15 +13,6 @@ const projects = [
   },
 
   {
-    image: 'intheclouds.png',
-    title: 'InTheClouds',
-    text: 'Сайт со сложными параллакс и скролл анимациями.',
-    tags: ['React', 'Tailwind', 'Next.js', 'Motion'],
-    categories: ['Многостраничные'],
-    code: 'https://github.com/anastasiacheb/intheclouds',
-    site: 'https://intheclouds.vercel.app',
-  },
-  {
     image: 'norrcollective-admin.png',
     title: 'NorrCollective Admin',
     text: 'Административная панель для управления интернет-магазином антикварной мебели. \n\n Реализованы таблицы товаров и заказов с поиском, сортировкой, фильтрацией и получением данных из базы, а также редактирование, добавление и удаление товаров. Предусмотрена валидация данных в формах добавления и редактирования товаров. Интерфейс построен с помощью shadcn/ui.',
@@ -38,6 +29,15 @@ const projects = [
     categories: ['Многостраничные'],
     code: 'https://github.com/anastasiacheb/norrcollective_admin',
     site: 'https://norrcollective-admin.vercel.app',
+  },
+  {
+    image: 'intheclouds.png',
+    title: 'InTheClouds',
+    text: 'Сайт со сложными параллакс и скролл анимациями.',
+    tags: ['React', 'Tailwind', 'Next.js', 'Motion'],
+    categories: ['Многостраничные'],
+    code: 'https://github.com/anastasiacheb/intheclouds',
+    site: 'https://intheclouds.vercel.app',
   },
   {
     image: 'sphere.png',

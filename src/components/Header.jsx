@@ -32,7 +32,7 @@ export default function Header() {
         </h1>
         <p className="text-sm sm:text-base md:text-lg pb-4 sm:pb-8">
           Разрабатываю frontend на React и Next.js и делаю адаптивную верстку по
-          макетам Figma, а также подключаю CMS и API.
+          макетам Figma, подключаю CMS и API.
         </p>
         {/* <p className="text-sm sm:text-base md:text-lg font-semibold pb-2 sm:pb-4">
           Готовы обсудить проект?{' '}
