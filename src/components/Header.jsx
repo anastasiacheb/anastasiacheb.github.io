@@ -28,11 +28,11 @@ export default function Header() {
       className="max-w-6xl m-auto px-4 sm:px-6 flex-col-reverse flex sm:grid sm:grid-cols-2 sm:py-20 pb-10 mt-[60px] sm:mt-[70px] scroll-m-[60px] sm:scroll-m-[70px]">
       <div>
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-sky-900 pb-3 sm:pb-6">
-          Качественная frontend-разработка по готовому дизайну
+          Frontend-разработка и верстка сайтов
         </h1>
         <p className="text-sm sm:text-base md:text-lg pb-4 sm:pb-8">
-          Создаю быстрые, адаптивные сайты с точным соответствием макету, чистым
-          и поддерживаемым кодом и вниманием к деталям.
+          Разрабатываю frontend на React и Next.js и делаю адаптивную верстку по
+          макетам Figma. Подключаю CMS и API.
         </p>
         {/* <p className="text-sm sm:text-base md:text-lg font-semibold pb-2 sm:pb-4">
           Готовы обсудить проект?{' '}
