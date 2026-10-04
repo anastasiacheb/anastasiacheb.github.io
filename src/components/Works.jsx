@@ -42,7 +42,7 @@ const projects = [
   {
     image: 'sphere.png',
     title: 'Sphere Career',
-    text: 'Верстка адаптивного лендинга.',
+    text: 'Адаптивная верстка лендинга.',
     tags: ['HTML', 'Tailwind', 'JavaScript', 'Swiper'],
     categories: ['Одностраничные'],
     code: 'https://github.com/anastasiacheb/sphere',
